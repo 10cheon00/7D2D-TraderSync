@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+  <Name value="TraderSync" />
+  <DisplayName value="TraderSync" />
+  <Description value="Allows concurrent NPC trader windows with serialized server-side purchase/sale transactions and live stock synchronization." />
+  <Author value="Anthony Maltha; ported for the current game API" />
+  <Version value="2.1.1" />
+  <Website value="" />
+  <SkipWithAntiCheat value="true" />
+</xml>
