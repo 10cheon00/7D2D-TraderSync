@@ -1,6 +1,47 @@
-bin/
-obj/
+# .NET build output
+[Bb]in/
+[Oo]bj/
+[Aa]rtifacts/
+
+# Visual Studio / MSBuild user state
 .vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.csproj.user
+
+# JetBrains Rider / ReSharper
+.idea/
+*.sln.iml
+_ReSharper*/
+*.DotSettings.user
+
+# NuGet packages and generated package files
+packages/
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+
+# Test and coverage output
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+coverage*.json
+coverage*.xml
+coverage*.info
+
+# Local tooling and reverse-engineering output
 .tools/
 Analysis/
-*.user
+
+# Logs and crash dumps
+*.log
+*.dmp
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
